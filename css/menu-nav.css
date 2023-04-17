@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: #60BF81;
 }
 
 .barra-ul {
@@ -8,7 +9,12 @@ body {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #02529c;
+  background-color: #238C6E;
+  font-family: 'Source Code Pro', monospace;
+}
+
+.linha-li:hover {
+  background-color: #2BD999;
 }
 
 .linha-li {
@@ -23,10 +29,27 @@ body {
   text-decoration: none;
 }
 
-/* li a:hover:not(.active) {
-  background-color: #111;
+footer {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  float: left;
+  justify-content: center;
+  background-color: #238C6E;
+  color: white;
+  font-family: 'Source Code Pro', monospace;
+  text-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  flex-direction: column;
 }
 
-.active {
-  background-color: #04AA6D;
-} */
+footer div {
+  margin-top: 10px; 
+}
+
+footer img {
+  width: 25px;
+  height: auto;
+  margin: 0 10px;
+}
